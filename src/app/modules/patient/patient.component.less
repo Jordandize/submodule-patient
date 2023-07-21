@@ -1,8 +1,11 @@
+@import "colors";
+@import "vars";
+
 :host {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: @size-l;
     width: 200px;
     padding: 24px;
     background-color: bisque;
@@ -12,5 +15,6 @@
     &__title {
         font-size: 20px;
         font-weight: 500;
+        color: @pop;
     }
 }
